@@ -12,13 +12,3 @@ urlpatterns = [
     path('login/', views.UserLoginApiView.as_view()),
     path('', include(router.urls))
 ]
-
-
-# Section - 8 (Video 3)
-# created a view for learning purposes
-# created a urls.py file in profiles_api
-# included the new file to the project level url.py file
-# imported the views to urls.py file which is in the app
-# map the desired url based on the views
-# did testing
-# Creating serializers
