@@ -13,3 +13,5 @@ urlpatterns = [
 # included the new file to the project level url.py file
 # imported the views to urls.py file which is in the app
 # map the desired url based on the views
+# did testing
+# Creating serializers
